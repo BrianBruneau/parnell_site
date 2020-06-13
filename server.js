@@ -16,11 +16,11 @@ app.set('view engine', 'ejs');
 
 
 app.get('/', (req, res) => {
-    res.render("index");
+    res.render("home");
 });
 
-app.get('/home', (req, res) => {
-    res.render("home");
+app.get('/index', (req, res) => {
+    res.render("index");
 });
 
 app.get('/about', (req, res) => {
@@ -33,6 +33,10 @@ app.get('/artist', (req, res) => {
 
 app.get('/contact', (req, res) => {
     res.render("contact");
+});
+
+app.get('/gallery', (req, res) => {
+    res.render("gallery");
 });
 
 app.get('/merch', (req, res) => {
