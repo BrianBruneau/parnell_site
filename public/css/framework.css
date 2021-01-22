@@ -23,7 +23,7 @@ html, body{margin:0; padding:0; font-size:14px; line-height:1.6em;}
 .inline *:last-child{margin-right:0;}
 .borderedbox{border:1px solid;}
 .bgded{background-position:top center; background-repeat:no-repeat; background-size:cover;}
-.overlay{display:block; width:100%; height:auto;}
+.overlay{display:block; width:100%; height:100%;}
 .capitalise{text-transform:capitalize;}
 
 .services li > article{display:block; position:relative; width:100%; margin:0 0 50px 0; padding:20px 20px 20px 85px;}
@@ -65,8 +65,8 @@ label{margin-bottom:5px;}
 --------------------------------------------------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .heading{margin:0 0 20px 0; font-size:22px; line-height:normal; font-weight:normal;}
 
-.xl{font-size:28px; line-height:normal;}
-.xxl{font-size:54px;}
+.xl{font-size:28px; line-height:normal; font-family: Aldhabi;}
+.xxl{font-size:54px; font-family: "Dead Space";}
 
 address{font-style:normal; font-weight:normal;}
 hr{display:block; width:100%; height:1px; border:solid; border-width:1px 0 0 0;}
